@@ -37,7 +37,8 @@ public class MainController {
 		model.addAttribute("view","order-history.jsp");
 		return new ModelAndView(VIEW_BASE);
 	}
-	
+	   
+	//test
 	
 	@RequestMapping("/orderhistorydetailpage")
 	public ModelAndView navToOrderHistoryDetailPage(Model model) {
